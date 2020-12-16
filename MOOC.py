@@ -104,7 +104,7 @@ print("开始...")
 
 examOrder = 0
 for i, url in enumerate(urls):
-    sleep(0.5)
+    sleep(0.2)
     k.tap_key(k.function_keys[4])
     sleep(0.2)
     k.type_string(url)
