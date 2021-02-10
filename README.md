@@ -22,7 +22,7 @@
 
 ### 运行方式
 
-- 运行前需要先将html.txt内容替换为自己的课程页面
+- 运行前需要先将main中的html.txt内容替换为自己的课程页面
 
 URL格式: http://mooc1.mooc.whu.edu.cn/mycourse/studentcourse?courseId=123456&clazzid=123456&enc=xxx&cpi=xxxx&vc=1
 
