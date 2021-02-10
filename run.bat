@@ -1,3 +1,3 @@
 timeout 10
-python MOOC.py 1
+python main\MOOC.py 1
 pause

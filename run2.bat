@@ -1,3 +1,3 @@
 :g
-python MOOC.py 1
+python main\MOOC.py 1
 goto g
