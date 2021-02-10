@@ -21,7 +21,7 @@ def getColor(x, y):
 
 def answerExam(x):
     # 从文件中读取答案
-    with open("answer.txt", "r", encoding="utf-8") as fp:
+    with open("../answer.txt", "r", encoding="utf-8") as fp:
         answers = fp.read().split("\n")[x - 1].split()
     questionAmount = len(answers)
     # 开始填写每道题
@@ -82,7 +82,7 @@ def answerExam(x):
 
 
 chapterURLPtn = re.compile("""<a href='/mycourse/studentstudy(.*)'""")
-with open("html.txt", "r", encoding="utf-8") as fp:
+with open("../html.txt", "r", encoding="utf-8") as fp:
     urls = list(
         map(lambda x: "http://mooc1.mooc.whu.edu.cn/mycourse/studentstudy" + x, chapterURLPtn.findall(fp.read())))
 
