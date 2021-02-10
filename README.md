@@ -2,7 +2,7 @@
 
 毛概MOOC
 
-### 项目结构优化已完成
+### 项目结构
 
 - back文件夹为MOOC.py代码备份
 
@@ -21,6 +21,10 @@
 - MOOC.py为主程序
 
 ### 运行方式
+
+- 运行前需要先将html.txt内容替换为自己的课程页面
+
+URL格式: http://mooc1.mooc.whu.edu.cn/mycourse/studentcourse?courseId=123456&clazzid=123456&enc=xxx&cpi=xxxx&vc=1
 
 - run.bat为单次运行
 
